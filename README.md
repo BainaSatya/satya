@@ -1,2 +1,2 @@
 # satya
-Learn how to learn is life's most important skill
+Learning how to learn is life's most important skill
