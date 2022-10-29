@@ -1,0 +1,47 @@
+.footer{
+    width:100%;
+    background-color: black;
+    padding:0 0 5rem;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:20px;
+}
+
+.input h1{
+    font-size: 2.4rem;
+}
+
+.input input{
+    color:white;
+    padding:15px 20px;
+    font-size: 1.5rem;
+    background-color: black;
+    border:2px solid white;
+    border-radius: 10px;
+}
+
+button{
+    background-color: black;
+    border:2px solid white;
+    font-size: 1.5rem;
+    padding:13px 45px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ 
+button:hover{
+    background-color: white;
+    color:black;
+}
+
+@media(max-width:1100px){
+    .input{
+        flex-wrap: wrap;
+    }
+}
+

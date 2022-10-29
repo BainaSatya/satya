@@ -1,0 +1,48 @@
+/* #slider1,
+#slider2,
+#slider3,
+#slider4,
+#slider5,
+#slider6,
+#slider7,
+#slider8,
+#slider9 {
+  width: 100%;
+  border-radius: 2%;
+  border: 2px solid white;
+} */
+
+.services {
+  width: 100%;
+  padding:20px 80px;
+}
+
+.services img{
+  width:95%;
+  border-radius: 2%;
+  border: 2px solid white;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.5s;
+
+}
+
+.services img:hover {
+  z-index: 2;
+  transform: scale(1.006);
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+.heading{
+  text-align: center;
+  font-size: 2rem;
+}
+
+

@@ -1,0 +1,552 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, input, button, li{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+p{
+    font-size: 24px;
+}
+
+body{
+    width:100%;
+    margin:0 auto;
+    padding: 0px;
+    min-height: 100vh; 
+    
+}
+button:hover{
+    background-color: green;
+    color:white;
+
+}
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+
+/* ---------------- navbar ----------- */
+
+.navbar{
+
+    width:90vw;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px 0px;
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:30px;
+}
+
+.logo img{
+    width:40px;
+    height:40px;
+}
+
+.search{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap:30px;
+    border-radius: 8px;
+    padding:5px 40px;
+    border: 1px solid;
+}
+
+.search img{
+    width:20px;
+    height:20px;
+}
+
+.search p{
+    font-size: 20px;
+    opacity:0.5;
+}
+
+#info{
+    opacity:0;
+}
+
+
+.links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:30px;
+}
+
+.links img{
+    width:30px;
+    height:30px;
+    display: block;
+    
+}
+
+/* .links img:hover, .search img:hover, #settings:hover, .logo img:hover, #userPic:hover{
+    width:80px;
+    height:80px;
+    padding:2px;
+    display: block;
+    
+} */
+
+#linkNames{
+    display:none;
+}
+
+#userPic{
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+}
+
+.burger{
+    display: none;
+}
+
+.burger div{
+    height:8px;
+    width:50px;
+    margin: 7px;
+    background-color: black;
+}
+
+
+
+
+/* ----------------- profile data ----------------- */
+
+.profileData{
+    width:80vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding:30px 0px;
+    margin : 0 auto;
+    gap:100px;
+}
+
+.profile{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* .profile img:hover{
+    width:500px;
+    height:500px;
+    border-radius: 50%;
+} */
+
+.profile img{
+    width:230px;
+    height:230px;
+    border-radius: 50%;
+}
+
+.bio{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.biodata{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:30px;
+    
+}
+
+.name{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:50px;
+    
+}
+
+.name img{
+    width:30px;
+    height: 30px;
+}
+
+.edit{
+    border-radius:10px;
+    letter-spacing: 1px;
+    padding:15px 35px;
+    background-color: rgba(248, 248, 216, 0.25);
+    color:black;
+    border:1px solid rgba(248, 248, 216, 0.25);
+}
+
+.edit h2{
+    font-size: 20px;
+}
+
+.post{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:80px;
+}
+
+.posts{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.followers{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.following{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.data{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.data span{
+    display: block;
+}
+
+#settings{
+    cursor: pointer;
+}
+
+
+
+/* -------------- ---------------- */
+
+.create{
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:50px 0px;
+    gap:80px;
+
+}
+
+/* .album:hover{
+        background-color: yellow;
+        cursor: pointer;
+        padding:20px 40px;
+        border-radius: 10px;
+} */
+
+.album{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:30px;
+}
+
+.album img{
+    width:60px;
+}
+
+.album h1{
+    font-size: 30px;
+}
+
+/* ----------- grid -------------- */
+
+.grid{
+    width:100%;
+    margin :0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:1.8% 2%;
+    gap:1.5%;
+}
+
+
+
+
+.image{
+    width:100%;
+    height:450px;
+
+}
+
+/* .image:hover{
+    width:500px;
+    height:500px;
+} */
+
+/* ----------- footer ------------- */
+
+.footer{
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+    padding:50px;
+    margin : 0 auto;
+    
+}
+
+.info{
+    width:80vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:20px;
+    flex-wrap: wrap;
+}
+
+.info img{
+    width: 25px;
+    height:25px;
+    opacity:0.7;
+}
+
+.footer p{
+    font-size: 20px;
+}
+
+/* .footer p:hover{
+    background-color: gold;
+    font-size: 30px;
+    padding:5px 10px;
+} */
+
+
+/* ------------------------------------ */
+ 
+
+  /* img:hover {
+    cursor: pointer;
+    padding:20px 40px;
+    border-radius: 30%;
+  } */
+
+  .nav-active{
+    
+    transform: scale(0);
+}
+/* ----------------------------- */
+
+@media(max-width:1500px){
+    .profileData{
+        display:flex;
+        justify-content: center;
+        align-items:flex-start;
+        flex-direction: column;
+        gap:50px;
+        padding:30px 0px;
+        margin : 0 auto;
+    }
+
+    .post{
+        position:absolute;
+        top:150px;
+        left:500px;
+    }
+
+    .data{
+        position:absolute;
+        top:260px;
+        left:500px;
+        gap:15px;
+    }
+
+    .edit, .name img{
+        position:relative;
+        top :100px;
+        right:-200px;
+        
+    }
+
+    .links{
+        display:none;
+
+    }
+
+    #linkNames{
+        position: absolute;
+        right:0;
+        left:0;
+        top : 10vh;
+        width:100%;
+        height: 90vh;
+        z-index: 9999999;
+        background-color: white;
+        opacity:1;
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        color:black;
+        
+        transition: transform ease-in 0.5s;
+       
+    }
+
+    #linkNames h1:hover{
+        border-radius: 20px;
+        padding:35px 50px;
+        background-color: gold;
+        font-size: 50px;
+        
+    }
+
+    
+ 
+
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+
+    /* .toggle .line1{
+
+        transform: rotate(-45deg) translateX(8px) translateY(30px);
+    }
+    
+    .toggle .line2{
+        opacity:0;
+    }
+    
+    .toggle .line3{
+        transform: rotate(45deg) translateX(8px) translateY(-30px);
+    } */
+
+
+}
+
+@media(max-width:1100px){
+    .profileData{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+       
+    }
+    .profile img{
+        position: relative;
+        top:-5px;
+        left:2px;
+    }
+
+
+    .name{
+        position: relative;
+        top:150px;
+        left:-250px;
+    }
+
+
+
+
+    .profile {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin:0 auto;
+    }
+
+    .edit, .name img{
+        opacity: 0;
+        
+    }
+
+}
+
+
+
+/* ------------------------------------------- */
+
+@media(max-width:1024px){
+
+    .profileData{
+        width:50vw;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:50px;
+        margin:0 auto;
+}
+
+
+.profile img{
+    position: relative;
+    top:0px;
+    left:-300px;
+}
+
+.name h1{
+    position: relative;
+    top:-200px;
+    left:120px;
+}
+
+#create{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+#create h1{
+    font-size: 50px;
+}
+
+#create img{
+    display:none;
+}
+
+
+}
+

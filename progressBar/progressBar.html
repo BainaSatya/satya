@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <link rel="stylesheet" href="./progressBar.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500&display=swap');
+    </style>
+</head>
+
+<body id="body">
+    <div class="container">
+        <img src="../design/success.png" alt="" id="success">
+        <img src="../design/cup.png" alt="" id="cup1">
+        <img src="../design/cup.png" alt="" id="cup2">
+        <img src="../design/cup.png" alt="" id="cup3">
+        <img src="../design/cup.png" alt="" id="cup4">
+        <div class="circular-progress">
+            <span class="progress-value">0%</span>
+        </div>
+        <span class="text">
+            <h2>PROGRESS BAR</h2>
+        </span>
+        <div class="parallel-progress">
+            <span class="parallel-value">0%</span>
+        </div>
+        <div class="make">
+            <a id="button" onclick="progressBar()">Make Order</a>
+        </div>
+    </div>
+    <div class="popup" id="popup">
+        <h1>Congratulations Satya!</h1>
+        <p>Your Placed Order Completed Successfully.</p>
+        <button id="done">Done</button>
+    </div>
+
+    <script src="./progressBar.js"></script>
+</body>
+
+</html>

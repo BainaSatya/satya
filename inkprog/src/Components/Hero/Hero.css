@@ -1,0 +1,22 @@
+.bg-gif {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding:100px 0px;
+  gap:50px;
+}
+
+#img{
+  width: 40%;
+  border-radius: 5%;
+}
+
+#img1 {
+  width: 30%;
+  border-radius: 50%;
+}
+
+
+

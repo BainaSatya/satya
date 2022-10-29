@@ -1,0 +1,75 @@
+.about-gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:50px;
+}
+
+.face img{
+    width:50%;
+}
+
+.face1 img{
+    width: 50%;
+}
+
+.face-btn{
+    padding:30px 60px;
+    border-radius: 60px;
+    background-color:black;
+    border: 2px solid white;
+    cursor:pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.content h1{
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+@media(max-width:400px){
+    .face-btn{
+        padding:28px 55px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width:385px){
+    .face-btn{
+        padding:26px 50px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:375px){
+    .face-btn{
+        padding:24px 45px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:355px){
+    .face-btn{
+        padding:22px 50px;
+        font-size: 13px;
+    }
+}
+
+@media(max-width:345px){
+    .face-btn p{
+        padding:20px 48px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,49 @@
+.History-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 0px;
+}
+
+.History-img img {
+  width: 40vw;
+  border-radius: 50%;
+}
+
+.history h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.history,
+.ai-history {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+}
+
+.history {
+  background-image: url("../../assets/article.gif");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.ai-history h1 {
+  font-size: 2.6rem;
+}
+
+.ai-history p {
+  font-size: 20px;
+}
+
+
+
+
+
+  
